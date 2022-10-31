@@ -1,0 +1,111 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    background-color: #F2BB00;
+}
+
+button {
+    color: #F2BB00;
+}
+
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #F2BB00;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+    background-color: #F2BB00;
+}
+
+.video-wrapper {
+    text-align: center;
+    background-color: black;
+}
+
+.video-wrapper video {
+    /*object-fit: contain;*/
+    /*object-fit: fill; */
+    object-fit: cover;
+    width: 90%;
+    height: 90%;
+}
+
+.audio-wrapper {
+    text-align: center;
+    background-color: black;
+}
+
+.video-wrapper video {
+    /*object-fit: contain;*/
+    /*object-fit: fill; */
+    object-fit: cover;
+    width: 85%;
+    height: 85%;
+}
+
+.footer-icons {
+    font-size: 3rem;
+    color: black;
+}
+
+.image-square{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.emoji-btn{
+    font-size: 3rem;
+}

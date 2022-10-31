@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Kickback Film</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+
+    <div>
+        <div class="video-wrapper">
+            <video autoplay loop>
+                <source src="MainBackdrop.mp4" type="video/mp4">
+            </video>
+            <br>
+            <br>
+        </div>
+        <div class="audio-wrapper">
+            <audio id="bg-audio" autoplay loop>
+                <source src="music.mp3" type="audio/mpeg">
+            </audio>
+            <a class="waves-effect waves-light emoji-btn" onclick="play()" type="button" style="">
+                ▶️
+            </a>
+            <a class="waves-effect waves-light emoji-btn" onclick="pause()" type="button" style="font-size: 3rem;">
+                ⏸
+            </a>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h1>👇🏾Watch It Here👇🏾</h1>
+                    <a href="#" id="btn waves-effect waves-light btn-large" class="btn-large waves-effect waves-light black">🎥🍿🎞</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h1 class="header col s12 light">🙃</h1>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <h1 class="header center">Meet The Cast And Crew</h1>
+                <div class="col s12 m4"></div>
+                <div class="col s12 m4">
+
+                    <section>
+                        <div class="carousel carousel-slider">
+                            <a class="carousel-item black-text" href="#one">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="darius.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <h6>Insurance</h6>
+                                        <p>Adjusters have photos of cars damaged in accidents; these images, however, are not helping prevent...</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-item black-text" href="#two">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="david.jpg">
+                                    </div>
+                                    <div class="card-content">
+                                        <h6>Manufucturing defects</h6>
+                                        <p>Production lines are often equipped with cameras, but it can be challenging to infer quality or safety problems...</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="carousel-item black-text" href="#three">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/samples/retail.png">
+                                    </div>
+                                    <div class="card-content">
+                                        <h6>Retail</h6>
+                                        <p>Recommend products that match your customers' style, analyze reviews or survey data for topics and trends</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="carousel-item black-text" href="#three">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/samples/retail.png">
+                                    </div>
+                                    <div class="card-content">
+                                        <h6>Content filtering</h6>
+                                        <p>Adjusters have photos of cars damaged in accidents; these images, however, are not helping prevent future ...</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="carousel-item black-text" href="#three">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="images/samples/retail.png">
+                                    </div>
+                                    <div class="card-content">
+                                        <h6>Card 5</h6>
+                                        <p>I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </section>
+
+                    <div class="center">
+                        <a class="next emoji-btn">⏭</a>
+                        <a class="prev emoji-btn">⏮</a>
+                    </div>
+
+                </div>
+
+                <div class="col s12 m4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h1 class="header col s12 light">😜</h1>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h1>👇🏾Buy Some Merch👇🏾</h1>
+                    <a href="#" id="btn waves-effect waves-light btn-large" class="btn-large waves-effect waves-light black">To The Store</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h1 class="header col s12 light">💀</h1>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">The Kickback Film</h5>
+                    <p class="black-text">Chill out and have a good time, Take you back to the classics.</p>
+
+
+
+                </div>
+                <div class="col l3 s12">
+                    <div class="row">
+                        <div class="col"><a class="fa fa-instagram footer-icons" style="font-size: 3rem" href="https://www.instagram.com/thekickbackfilm/"></a></div>
+                        <div class="col"><a class="fa fa-twitter footer-icons" style="font-size: 3rem"></a></div>
+                        <div class="col"><a class="fa fa-youtube footer-icons" style="font-size: 3rem"></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container black-text">
+                Made by <a class="black-text text-darken-3" href="http://materializecss.com">Materialize</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/modal.js"></script>
+
+</body>
+
+</html>
